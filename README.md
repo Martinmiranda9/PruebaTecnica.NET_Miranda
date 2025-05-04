@@ -25,13 +25,20 @@ API REST desarrollada en .NET 9.0  con funcionalidades CRUD en base a las entida
 
 # ENDPOINTS CATEGORY
 GET /api/Category: Obtiene todas las categorías registradas.
+
 GET /api/Category/{id}: Obtiene los detalles de una categoría específica por su ID.
+
 POST /api/Category: Crea una nueva categoría.
+
 DELETE /api/Category/{id}: Elimina una categoría específica por su ID, si no tiene productos asociados.
 
 # ENDPOINTS PRODUCT 
 GET /api/Product: Obtiene todos los productos registrados, incluyendo la información de su categoría.
+
 GET /api/Product/{id}: Obtiene los detalles de un producto específico por su ID, incluyendo la categoría asociada.
+
 POST /api/Product: Crea un nuevo producto. 
+
 PUT /api/Product/{id}: Actualiza los detalles de un producto específico por su ID.
+
 DELETE /api/Product/{id}: Elimina un producto específico por su ID.
