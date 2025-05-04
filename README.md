@@ -14,14 +14,14 @@ API REST desarrollada en .NET 9.0  con funcionalidades CRUD en base a las entida
 - Configurá la base de datos (Asegurate de tener MySQL instalado y en funcionamiento)
 - En appsettings.json, ajusta la cadena de conexión y ejecuta los siguientes comandos:
 - # Restaurar paquetes
-  dotnet restore
+  ``dotnet restore``
 # Aplicar migraciones (crear DB)
-  dotnet ef migrations add InitialCreate
-  dotnet ef database update
+  `` dotnet ef migrations add InitialCreate
+     dotnet ef database update``
 # Ejecutar la API
-  dotnet run
+ `` -dotnet run``
 # Accedé a la documentación Swagger
-https://localhost:5001/swagger
+``https://localhost:5001/swagger``
 
 # ENDPOINTS CATEGORY
 GET /api/Category: Obtiene todas las categorías registradas.
