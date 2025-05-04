@@ -13,14 +13,15 @@ API REST desarrollada en .NET 9.0  con funcionalidades CRUD en base a las entida
 - Cloná el repositorio
 - Configurá la base de datos (Asegurate de tener MySQL instalado y en funcionamiento)
 - En appsettings.json, ajusta la cadena de conexión y ejecuta los siguientes comandos:
-- # Restaurar paquetes
+- 
+  Restaurar paquetes
   ``dotnet restore``
-# Aplicar migraciones (crear DB)
+Aplicar migraciones (crear DB)
   `` dotnet ef migrations add InitialCreate
      dotnet ef database update``
-# Ejecutar la API
+Ejecutar la API
  `` -dotnet run``
-# Accedé a la documentación Swagger
+Accedé a la documentación Swagger
 ``https://localhost:5001/swagger``
 
 # ENDPOINTS CATEGORY
