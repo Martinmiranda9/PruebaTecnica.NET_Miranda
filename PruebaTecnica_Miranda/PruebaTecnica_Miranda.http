@@ -1,0 +1,6 @@
+@PruebaTecnica_Miranda_HostAddress = http://localhost:5251
+
+GET {{PruebaTecnica_Miranda_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
